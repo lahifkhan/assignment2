@@ -94,7 +94,7 @@ color: #FFFFFF;
 
 /* main style */
 
-main{
+.main-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -187,6 +187,76 @@ main{
     border: none;
     border-radius: 8px;
     
+}
+.facts{
+    margin-left: 240px;
+}
+
+.facts h2{
+    font-size: 45px;
+    color: #131313;
+
+}
+.statistics{
+    height: 241.83px;
+    width: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: transform 5s ;
+}
+.count{
+    font-size: 45px;
+    color: #424242; 
+    
+}
+.statistics p{
+    font-size: 20px;
+    color: #727272;
+}
+.statistics-container{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+.statistics-container :hover{
+    transform: rotate(90deg);
+
+}
+ .sponsor-details{
+    text-align: center;
+    margin-top: 180px;
+ }
+ .sponsor-title{
+    font-size: 45px;
+    color: #131313;
+ }
+ .sponsor-info{
+
+ }
+.sponsor-img{
+
+    display: flex;
+    gap: 155px;
+    margin-top: 50px;
+}
+
+
+.footer-container{
+    width: 1350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#FFF4E7;
+    margin-top: 130px;
+    margin-bottom: 216px;
+  
+
+}
+
+.copyright{
+    font-size: 20px;
+    color: #424242;
+
 }
 
 
