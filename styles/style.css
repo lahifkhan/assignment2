@@ -90,6 +90,75 @@ color: #FFFFFF;
     width: 100%;
 }
 
+@media screen and (max-width:688px) {
+    .container{
+        width: 100%;
+
+    }
+    .navigation-bar{
+        flex-wrap: wrap;
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner img{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        background-color: white;
+    }
+
+    .features{
+        flex-direction: column;
+        align-items: center;
+    }
+    .features-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .love-enjoy{
+        flex-direction: column ;
+        align-items: center;
+    }
+    .love-info{
+        width: 100%;
+    }
+    .love-img{
+        width: 100%;
+    }
+    .love-img img{
+        width: 100%;
+    }
+    .types{
+        padding: 0px;
+        box-shadow: none;
+        border-radius: none;
+        
+    }
+    .facts{
+        margin-left: 0px;
+    }
+    .statistics-container{
+        flex-direction: column;
+    }
+    .sponsor-img{
+        flex-direction:column ;
+    }
+    .main-container{
+        align-items: center;
+    }
+
+   .footer-container{
+    width: 100%;
+   }
+    
+}
+
+
+footer{
+    display: none;
+}
+
 
 
 /* main style */
@@ -137,7 +206,7 @@ color: #FFFFFF;
 }
 
 .love-info{
-    width: 30%;
+    width: 100%;
 }
 .leading-info{
     border-left: 5px solid  #FF900E;;
@@ -242,7 +311,7 @@ color: #FFFFFF;
 
 
 .footer-container{
-    width: 1350px;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
